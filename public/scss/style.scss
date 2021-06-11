@@ -1,0 +1,49 @@
+$main-bg-color: #2c3d50;
+
+html{
+    scroll-behavior: smooth;
+}
+/*footer dona*/
+.bloque-footer-1 {
+    background-color: #b4c1cf;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+    
+     
+  }
+/*nav*/
+  .bloque {
+    background-color: #fdfffd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    
+     
+  }
+  
+  .bg-dark {background-color:  var($main-bg-color) !important;}
+
+  p{color: white;}
+/*form*/
+  input.form-control, textarea.form-control{
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #ccc !important;
+  } 
+  /*boton*/
+  .btn-primary{
+    border-color: #5cbdbc !important;
+    background-color: #5cbd9d !important;
+  }
+
+  footer {
+    background-color: var($main-bg-color);
+  }
+ 
+  .bloque2 {
+    background-color: #000000;
+    
+  }

@@ -1,0 +1,336 @@
+.Colorfondo{
+  background: rgb(165,163,207);
+background: linear-gradient(90deg, rgba(165,163,207,1) 0%, rgba(218,194,116,0.48783263305322133) 35%, rgba(39,112,126,1));
+}
+
+/*footer boton donacion*/
+.bloque-footer-1 {
+  background-color: #103303;
+  margin-top:0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative;
+  
+    
+}
+/*footer info.*/
+.bloque-footer{
+  margin-bottom: 0px;
+  background-color: #2c3d50;
+  padding-top: 3%;
+  padding-bottom: 0%;
+}
+
+/*nav*/
+.bloque {
+  background-color: #fdfffd;
+  margin-bottom: 0px;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  width: 100%;
+}
+.bloque i{
+  margin-right: 10px;
+}
+/*nav color*/
+:root{
+  --main-bg-color: #2c3d50;
+}
+.bg-dark {background-color:  var(--main-bg-color) !important;}
+
+
+/*formulario*/
+input.form-control, textarea.form-control{
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid #ccc !important;
+} 
+
+/*footer copyright*/
+.bloque2{
+  background-color: #000000;
+  padding-left: 34%;
+}
+
+
+/*fondoBody*/
+.fondo {
+background-image: url('../images/transfondoBody.png');
+width: 100%;
+min-height: 110vh;
+background-size: cover;
+background-position: center;
+}
+/*fondoHeader*/
+.fondo2 {
+background-image: url('../images/transfondoHeader.png');
+width: 100%;
+height: 100vh;
+background-size: cover;
+background-position: center;
+margin-top: 50px;
+}
+
+/*margenes img-mapa*/
+p{
+  text-align: justify;
+  color: #ffffff;
+  margin: 30px 50px;
+  line-height: 0px;
+  margin-top: 5%;
+}
+/*letra info.*/
+li{
+  text-align: justify;
+  color: #ffffff;
+  
+
+}
+/*margenes body sobre nosotros*/
+.margin {
+  padding-top: 70px;
+  padding-bottom: 100px;
+  padding-right: 60px;
+  padding-left: 50px;
+  text-align: justify;
+  overflow:hidden;
+
+}
+
+
+/*subtitulo - sobre nosotros*/
+h2 {
+  font-weight: bold;
+  line-height: 1.1;
+  color: chocolate;
+  margin-bottom: 12px;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+/*titulo*/
+h1 {
+
+  text-align:center;
+  color: #2c3d50;
+  padding-top: 80px;
+  font-size: 70px;
+}
+/*texto pequeño*/
+h3 {
+
+  text-align:center;
+  color: rgb(0, 0, 0);
+  padding-top: 80px;
+}
+strong {
+  color: #ffffff;
+}
+
+a {
+  color: #000000;
+}
+
+
+
+/*img-text actividades*/
+*{margin: 0;padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;}
+
+
+  /*margenes body sobre nosotros*/
+.margi {
+  padding-top: 100px;
+  padding-bottom: 40px;
+  padding-right: 60px;
+  padding-left: 50px;
+  text-align: justify;
+  overflow:hidden;
+
+}
+
+  
+  .contenedor{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+  }
+  .contenedor figure{
+     position:relative;
+      height: 350px;
+      cursor: pointer;
+      width: 450px;
+      overflow: hidden;
+      border-radius: 6px;
+      box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+  }
+  .contenedor figure img{
+      width: 100%;
+      height: 100%;
+      transition: all 400ms ease-out;
+      will-change: transform;
+  }
+  .contenedor figure .capa{
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,103,123,0.7);
+      transition: all 400ms ease-out;
+      opacity: 0;
+      visibility: hidden;
+      text-align: center;
+  }
+  .contenedor figure:hover > .capa {
+      opacity: 1;
+      visibility: visible;
+  }
+  .contenedor figure:hover > .capa h3{
+      margin-top: 0px;
+      margin-bottom: 15px;
+  }
+  .contenedor figure:hover > img{
+      transform: scale(1.3);
+  }
+  .contenedor figure .capa h3{
+      color: #fff;
+      font-weight: 400;
+      margin-bottom: 120px;
+      transition: all 400ms ease-out;
+      margin-top: 30px;
+  }
+  .contenedor figure .capa p{
+      color: #fff;
+      text-align:justify;
+      font-size: 20px;
+      line-height: 1.5;
+      width: 100%;
+      max-width: 220px;
+      margin: auto;
+  }
+
+
+  /*img-txt por columnas*/
+  .flexbox-container {
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    overflow: hidden;
+}
+
+.flexbox-container > div {
+    width: 50%;
+    padding: 10px;
+}
+
+.flexbox-container > div:first-child {
+    margin-right: 20px;
+}
+
+
+
+
+
+.sticky-container{
+  padding:0px;
+  margin:0px;
+  position:fixed;
+  right:-140px;
+  top:57px;
+  width:210px;
+  z-index: 1100;
+}
+.sticky li{
+  list-style-type:none;
+  background-color:transparent; 
+  color:transparent;
+  height:43px;
+  padding:0px;
+  margin:0px 0px 1px 0px;
+  -webkit-transition:all 0.25s ease-in-out;
+  -moz-transition:all 0.25s ease-in-out;
+  -o-transition:all 0.25s ease-in-out;
+  transition:all 0.25s ease-in-out;
+  cursor:pointer;
+}
+.sticky li:hover{
+  margin-left:-60px;
+}
+.sticky li img{
+  float:left;
+  margin:5px 4px;
+  margin-right:5px;
+}
+.sticky li p{
+  padding-top:5px;
+  margin:0px;
+  line-height:16px;
+  font-size:11px;
+}
+.sticky li p a{
+  text-decoration:none;
+  color:#2C3539;
+}
+.sticky li p a:hover{
+  text-decoration:underline;
+}
+
+
+/*donate*/
+.boton{
+  margin-left: 90px; 
+}
+/*seleccionarCat*/
+.selected-category {
+  border-bottom: 2px solid rgb(177, 0, 0);
+}
+
+.card-txt-category {
+  color: #9D9D9D;
+  font-size: 12px;
+}
+
+/*sombraCard*/
+.card {
+  box-shadow: 1px 1px 5px 1px rgba(12, 58, 207, 0.2);
+  border-radius: 1.25rem;
+  margin-left:785px;
+  margin-right: 785px;
+  margin-top: 160px;
+}
+.card .card-img-top {
+  border-top-left-radius: calc(1.25rem - 1px);
+  border-top-right-radius: calc(1.25rem - 1px);
+}
+
+.post-txt {
+  color: #9D9D9D;
+}
+/*fondo*/
+.photofondo {
+  background-image: url('../images/transfondoBody.png');
+  width: 100%;
+  min-height: 110vh;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+  }
+  .margine {
+    padding-top: 70px;
+    padding-bottom: 100px;
+    padding-right: 60px;
+    padding-left: 50px;
+    text-align: justify;
+    overflow:hidden;
+  
+  }
